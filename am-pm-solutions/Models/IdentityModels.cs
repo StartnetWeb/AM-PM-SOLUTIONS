@@ -21,7 +21,7 @@ namespace am_pm_solutions.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("AmPmContext", throwIfV1Schema: false)
         {
         }
 

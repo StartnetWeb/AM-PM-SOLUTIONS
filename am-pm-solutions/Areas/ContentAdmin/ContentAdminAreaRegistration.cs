@@ -17,7 +17,8 @@ namespace am_pm_solutions.Areas.ContentAdmin
             context.MapRoute(
                 "ContentAdmin_default",
                 "ContentAdmin/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                new { controller = "Home", action = "Index", id = UrlParameter.Optional },
+                new[] { "am-pm-solutions.Web.Areas.ContentAdmin.Controllers" }
             );
         }
     }
