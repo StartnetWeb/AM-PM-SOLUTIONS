@@ -1,0 +1,12 @@
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\bin\Debug\am-pm-solutions.Entities.dll.config
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\bin\Debug\am-pm-solutions.Entities.dll
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\bin\Debug\am-pm-solutions.Entities.pdb
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\bin\Debug\EntityFramework.dll
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\bin\Debug\EntityFramework.xml
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\obj\Debug\am-pm-solutions.Entities.csprojAssemblyReference.cache
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\obj\Debug\am-pm-solutions.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\obj\Debug\am-pm-solutions.Entities.csproj.CopyComplete
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\obj\Debug\am-pm-solutions.Entities.dll
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Entities\obj\Debug\am-pm-solutions.Entities.pdb
