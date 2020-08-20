@@ -15,3 +15,20 @@ C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am-pm
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am-pm-solutions.DAL.pdb
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am_pm_solutions.DAL.Migrations.init.resources
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am-pm-solutions.DAL.csproj.GenerateResource.cache
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\am-pm-solutions.DAL.dll.config
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\am-pm-solutions.DAL.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\am-pm-solutions.DAL.pdb
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\am-pm-solutions.Entities.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\EntityFramework.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\am-pm-solutions.Entities.pdb
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\am-pm-solutions.Entities.dll.config
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\EntityFramework.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am-pm-solutions.DAL.csprojAssemblyReference.cache
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am_pm_solutions.DAL.Migrations.init.resources
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am-pm-solutions.DAL.csproj.GenerateResource.cache
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am-pm-solutions.DAL.csproj.CoreCompileInputs.cache
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am-pm-solutions.DAL.csproj.CopyComplete
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am-pm-solutions.DAL.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am-pm-solutions.DAL.pdb
