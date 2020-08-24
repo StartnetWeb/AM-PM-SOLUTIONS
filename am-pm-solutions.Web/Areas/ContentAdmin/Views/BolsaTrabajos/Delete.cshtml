@@ -1,0 +1,43 @@
+﻿@model am_pm_solutions.Entities.BolsaTrabajo
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div id="title-breadcrumb-option-demo" class="page-title-breadcrumb">
+    <div class="page-header pull-left">
+        <div class="page-title">
+            Eliminar
+        </div>
+    </div>
+    <ol class="breadcrumb page-breadcrumb pull-right">
+        <li><i class="fa fa-home"></i>&nbsp;<a href="@Url.Action("Index", "Home")">Principal</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
+        <li class="hidden"><a href="@Url.Action("Index", "Home")">Principal</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
+        <li><i></i>&nbsp;<a href="@Url.Action("Index", "BolsaTrabajos")">Bolsas de trabajo</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
+        <li class="hidden"><a href="@Url.Action("Index", "BolsaTrabajos")">Bolsas de trabajo</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
+        <li class="active">Eliminar Bolsa de trabajo</li>
+    </ol>
+    <div class="clearfix">
+    </div>
+</div>
+
+<div class="page-content">
+    <div id="tab-general">
+        <div id="sum_box" class="row mbl">
+            <div class="col-lg-12 col-sm-12 col-md-12">
+                <div align="center">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <h3>¿Desea realmente eliminar la bolsa de trabajo seleccionada?</h3>
+                        @Html.HiddenFor(model => model.Id);
+                        <p>
+                            <button type="submit" class="btn btn-primary">SÍ</button>&nbsp;&nbsp;&nbsp;<a href="@Url.Action("Index")" class="btn btn-primary">NO</a>
+                        </p>
+                    }
+                </div>
+                &nbsp;<br>
+            </div>
+        </div>
+    </div>
+</div>
