@@ -17,7 +17,7 @@ namespace am_pm_solutions.Web
                 "Default",
                 "{controller}/{action}/{id}",
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional },
-                new[] { "am-pm-solutions.Web.Controllers" }
+                new[] { "am_pm_solutions.Web.Controllers" }
             );
         }
     }

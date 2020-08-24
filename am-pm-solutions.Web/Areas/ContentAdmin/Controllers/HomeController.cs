@@ -6,9 +6,10 @@ using System.Web.Mvc;
 
 namespace am_pm_solutions.Web.Areas.ContentAdmin.Controllers
 {
-    public class HomeAdminController : Controller
+    [Authorize]
+    public class HomeController : Controller
     {
-        // GET: ContentAdmin/HomeAdmin
+        // GET: ContentAdmin/Home
         public ActionResult Index()
         {
             return View();
