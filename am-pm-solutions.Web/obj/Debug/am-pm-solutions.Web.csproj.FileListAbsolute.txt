@@ -264,3 +264,7 @@ C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\obj\Debug\am-pm
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\obj\Debug\am-pm-solutions.Web.csproj.CopyComplete
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\obj\Debug\am-pm-solutions.Web.dll
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\obj\Debug\am-pm-solutions.Web.pdb
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.dll
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.Mvc.dll
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.xml
+C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.Mvc.xml
