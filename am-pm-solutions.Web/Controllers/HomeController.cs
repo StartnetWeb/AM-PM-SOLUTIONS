@@ -62,5 +62,31 @@ namespace am_pm_solutions.Web.Controllers
 
             return View();
         }
+
+        //CONTROLADORES DE VISTAS EN ESPAÑOL
+        public ActionResult IndexEs()
+        {
+            return View();
+        }
+
+        public ActionResult CompanyEs()
+        {
+            return View();
+        }
+
+        public ActionResult ServicesEs()
+        {
+            return View();
+        }
+
+        public ActionResult ServicesProjectMangementEs()
+        {
+            return View();
+        }
+
+        public ActionResult ServicesConsultancyEs()
+        {
+            return View();
+        }
     }
 }
