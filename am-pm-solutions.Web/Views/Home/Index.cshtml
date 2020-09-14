@@ -2,30 +2,122 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<section id="hero">
+    <div class="hero-container">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active" style="background-image: url('../../Content/ImgEnglish/img/slide/slide-1.jpg'); ">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AM-PM Solutions</span></h2>
+                            <p class="animate__animated animate__fadeInUp">AM-PM Solutions Global Management is your essential partner about getting solutions in the management of your business from an organizational and integrated point of view.</p>
+                            <a href="company.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item" style="background-image: url('../../Content/ImgEnglish/img/slide/slide-2.jpg');">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AM-PM Solutions</span></h2>
+                            <p class="animate__animated animate__fadeInUp">We bring the best assets to your company to address the challenges of dealing with projects from the beginning to the completion taking into account all the aspects of the process.</p>
+                            <a href="company.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item" style="background-image: url('../../Content/ImgEnglish/img/slide/slide-3.jpg');">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AM-PM Solutions</span></h2>
+                            <p class="animate__animated animate__fadeInUp">We are passionate about bringing the right resource to fit the required role applying strategies according to your current needs.</p>
+                            <a href="company.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+    <!-- ======= Counts Section ======= -->
+    <section class="counts section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>SERVICES</h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up">
+                    <a href="services.html">
+                        <div class="count-box">
+                            <i class="icofont-ui-folder" style="color: #EB8533;"></i>
+                            <p>PROJECT MANAGEMENT</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
+                    <a href="">
+
+                        <a href="services.html">
+                            <div class="count-box">
+                                <i class="icofont-users-alt-5" style="color: #EB8533;"></i>
+                                <p>CONSULTANCY</p>
+                            </div>
+                        </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Counts Section -->
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>INDUSTRIES</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
+                    <div class="icon"><i class="icofont-location-pin" style="color: #EB8533;"></i></div>
+                    <h4 class="title"><a href="industries.html">Project Management in <br>Transalation and Localization Industry</a></h4>
+                    <p class="description">We help language service providers to manage and run their projects bringing the best assets to deal...</p>
+                </div>
+
+                <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon"><i class="icofont-company" style="color: #EB8533;"></i></div>
+                    <h4 class="title"><a href="industries.html">Project Management in <br>General Companies</a></h4>
+                    <p class="description">We help companies in general to organize their structure according to the base or purpose...</p>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Services Section -->
+
+</main><!-- End #main -->

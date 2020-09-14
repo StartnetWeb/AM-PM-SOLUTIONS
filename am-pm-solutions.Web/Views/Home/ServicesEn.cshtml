@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "ServicesEn";
+}
+
+<main id="main">
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2>SERVICES</h2>
+                <ol>
+                    <li><a href="@Url.Action("Index","Home")">HOME</a></li>
+                    <li>SERVICES</li>
+                </ol>
+            </div>
+        </div>
+    </section><!-- End Breadcrumbs Section -->
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4 video-box">
+                    <img src="~/Content/ImgEnglish/img/services/project-management.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 d-flex flex-column justify-content-center about-content">
+                    <h2 class="titulos"><b>Project Management</b></h2>
+                    <br>
+                    <h4>
+                        Project Management is the practice of applying knowledge, skills, processes, resources, methods, experience, tools, and technology to achieve the objectives...
+                    </h4>
+                    <br>
+                    <a href="@Url.Action("ServicesProjectMangementEn","Home")"><i class="icofont-arrow-right"></i> <B>READ MORE</B></a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4 video-box">
+                    <img src="~/Content/ImgEnglish/img/services/consulting.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 d-flex flex-column justify-content-center about-content">
+                    <h2 class="titulos"><b>Consultancy</b></h2>
+                    <br>
+                    <h4>
+                        Consultancy is the practice of giving advice to people and companies about a specific field...
+                    </h4>
+                    <br>
+                    <a href="@Url.Action("ServicesConsultancyEn","Home")"><i class="icofont-arrow-right"></i> <B>READ MORE</B></a>
+                </div>
+            </div>
+        </div>
+    </section><!-- End About Us Section -->
+
+</main><!-- End #main -->
