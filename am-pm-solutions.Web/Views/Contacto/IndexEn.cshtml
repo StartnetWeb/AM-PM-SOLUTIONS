@@ -2,7 +2,6 @@
 @{
     ViewBag.Title = "IndexEn";
 }
-
 <main id="main">
     <!-- ======= Breadcrumbs Section ======= -->
     <section class="breadcrumbs">
@@ -19,9 +18,7 @@
     <!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact">
         <div class="container">
-
             <div class="row">
-
                 <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
                     <div class="info-box">
                         <i class="bx bx-map"></i>
@@ -29,7 +26,6 @@
                         <p>A108 Adam Street, New York, NY 535022</p>
                     </div>
                 </div>
-
                 <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="info-box">
                         <i class="bx bx-envelope"></i>
@@ -37,7 +33,6 @@
                         <p>info@example.com<br>contact@example.com</p>
                     </div>
                 </div>
-
                 <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                     <div class="info-box ">
                         <i class="bx bx-phone-call"></i>
@@ -45,42 +40,110 @@
                         <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
                     </div>
                 </div>
-
                 <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="form-row">
-                            <div class="col-lg-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name (*)">
-                            </div>
-                            <div class="col-lg-6 form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email (*)">
-                            </div>
+                    <div class="form-row">
+                        <div class="col-lg-6 form-group">
+                            <input type="text" id="NombreApellido" name="NombreApellido" class="form-control" placeholder="Your Name (*)">
                         </div>
-                        <div class="form-row">
-                            <div class="col-lg-4 form-group">
-                                <input type="text" name="address" class="form-control" id="address" placeholder="Your Address (*)">
-                            </div>
-                            <div class="col-lg-4 form-group">
-                                <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone (*)">
-                            </div>
-                            <div class="col-lg-4 form-group">
-                                <select name="countries" class="form-control">
-                                    <option>select a Contries (*)</option>
-                                    <option>Argentina</option>
-                                    <option>United States</option>
-                                </select>
-                            </div>
+                        <div class="col-lg-6 form-group">
+                            <input type="email" class="form-control" id="Email" name="Email" placeholder="Your Email (*)">
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message (*)"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-4 form-group">
+                            <input type="text" name="Direccion" class="form-control" id="Direccion" placeholder="Your Address (*)">
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
-                    </form>
+                        <div class="col-lg-4 form-group">
+                            <input type="text" onkeypress="return justNumbers(event);" class="form-control" id="Telefono" name="Telefono" placeholder="Your Phone (*)">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <select id="Pais" name="Pais" class="form-control">
+                                <option>select a Contries (*)</option>
+                                <option>Argentina</option>
+                                <option>United States</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="Mensaje" id="Mensaje" rows="5" placeholder="Message (*)"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" id="contact_form_submit">Send Message</button>
+                    </div>
                 </div>
-
             </div>
-
         </div>
     </section><!-- End Contact Us Section -->
-
 </main><!-- End #main -->
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script>
+    $("#contact_form_submit").on('click', function () {
+        var NombreApellido = $("#NombreApellido").val();
+        var Telefono = $("#Telefono").val();
+        var Email = $("#Email").val();
+        var Mensaje = $("#Mensaje").val();
+        var Direccion = $("#Direccion").val();
+        var Pais = $("#Pais").val();
+        EnviarCorreo(NombreApellido, Telefono, Email, Mensaje, Direccion, Pais);
+    })
+    function EnviarCorreo(NombreApellido, Telefono, Email, Mensaje, Direccion, Pais) {
+        $.ajax({
+            type: "POST",
+            traditional: true,
+            async: true,
+            cache: false,
+            url: '@Url.Action("IndexEn", "Contacto")',
+            context: document.body,
+            data: {
+                NombreApellido: NombreApellido,
+                Telefono: Telefono,
+                Email: Email,
+                Mensaje: Mensaje,
+                Direccion: Direccion,
+                Pais: Pais
+            },
+            success: function (result) {
+                if (result) {
+                    $('body').append('<span class = "alert alert-success" style="position: fixed;top: 10px;right: 0;z-index:90">El Mensaje se a Enviado Correctamente<br/>Gracias por comunicarte, le contestaremos en breve </span>')
+
+                    window.setTimeout(function () {
+                        $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                            $(this).remove();
+                        });
+                    }, 4000);
+
+                    $("#NombreApellido").val("");
+                    $("#Telefono").val("");
+                    $("#Email").val("");
+                    $("#Mensaje").val("");
+                }
+                else {
+                    $('body').append('<span class = "alert alert-danger" style="position: fixed;top: 10px;right: 0;z-index:90">El mensaje no se ha podido enviar, intenta más tarde</span>')
+
+                    window.setTimeout(function () {
+                        $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                            $(this).remove();
+                        });
+                    }, 4000);
+                }
+            },
+            error: function (xhr) {
+                $('body').append('<span class = "alert alert-danger" style="position: fixed;top: 10px;right: 0;z-index:90">El mensaje no se ha podido enviar, intenta más tarde</span>')
+
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 4000);
+            }
+        });
+    }
+    function justNumbers(e) {
+        var keynum = window.event ? window.event.keyCode : e.which;
+        if ((keynum == 8 || keynum == 48))
+            return true;
+        if (keynum <= 47 || keynum >= 58) return false;
+        return /\d/.test(String.fromCharCode(keynum));
+    }
+</script>

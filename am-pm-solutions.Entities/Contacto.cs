@@ -35,5 +35,12 @@ namespace am_pm_solutions.Entities
         [Required(ErrorMessage = "El campo no puede estar Vacio")]
         [Display(Name = "Mensaje")]
         public string Mensaje { get; set; }
+
+        [Required(ErrorMessage = "El campo no puede estar Vacio")]
+        [Display(Name = "Direccion")]
+        public string Direccion { get; set; }
+
+        [Required][Display(Name = "Pais")]
+        public string Pais { get; set; }
     }
 }
