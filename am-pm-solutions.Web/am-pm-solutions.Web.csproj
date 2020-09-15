@@ -680,6 +680,11 @@
     <Content Include="Views\Home\ServicesEs.cshtml" />
     <Content Include="Views\Home\ServicesProjectMangementEs.cshtml" />
     <Content Include="Views\Home\ServicesConsultancyEs.cshtml" />
+    <Content Include="Views\Home\IndustriesEs.cshtml" />
+    <Content Include="Views\Home\IndustriesGeneralEs.cshtml" />
+    <Content Include="Views\Home\IndustriesTraslationEs.cshtml" />
+    <Content Include="Views\BolsaTrabajo\IndexEs.cshtml" />
+    <Content Include="Views\Contacto\IndexEs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

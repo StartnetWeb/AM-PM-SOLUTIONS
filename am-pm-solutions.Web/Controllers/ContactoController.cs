@@ -13,5 +13,10 @@ namespace am_pm_solutions.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult IndexEs()
+        {
+            return View();
+        }
     }
 }

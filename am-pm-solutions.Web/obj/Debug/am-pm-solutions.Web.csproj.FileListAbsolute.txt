@@ -268,3 +268,7 @@ C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.d
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.Mvc.dll
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.xml
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.Mvc.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.Mvc.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.Mvc.xml

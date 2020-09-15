@@ -88,5 +88,20 @@ namespace am_pm_solutions.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult IndustriesEs()
+        {
+            return View();
+        }
+
+        public ActionResult IndustriesGeneralEs()
+        {
+            return View();
+        }
+
+        public ActionResult IndustriesTraslationEs()
+        {
+            return View();
+        }
     }
 }
