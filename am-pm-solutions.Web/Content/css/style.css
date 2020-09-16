@@ -1479,3 +1479,11 @@ section {
 .text-naranja{
   color: #FA842D;
 }
+
+.btn_Send {
+    background: #428bca;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
