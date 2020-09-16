@@ -46,3 +46,4 @@ D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\es\System.Web.WebPages.resources.dll
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\es\System.Web.Razor.resources.dll
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am_pm_solutions.DAL.Migrations.Add_campo_Pais.resources

@@ -60,6 +60,10 @@
     <Compile Include="Migrations\202009151428537_Add_Campos_Contacto.designer.cs">
       <DependentUpon>202009151428537_Add_Campos_Contacto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009161325484_Add_campo_Pais.cs" />
+    <Compile Include="Migrations\202009161325484_Add_campo_Pais.designer.cs">
+      <DependentUpon>202009161325484_Add_campo_Pais.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -79,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009151428537_Add_Campos_Contacto.resx">
       <DependentUpon>202009151428537_Add_Campos_Contacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009161325484_Add_campo_Pais.resx">
+      <DependentUpon>202009161325484_Add_campo_Pais.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -33,6 +33,11 @@ namespace am_pm_solutions.Entities
         [Display(Name = "Provincia")]
         public string Provincia { get; set; }
 
+        [Required(ErrorMessage = "El campo no puede estar vacio")]
+        [StringLength(100, ErrorMessage = "El campo no puede superar los 100 caracteres")]
+        [Display(Name = "País")]
+        public string País { get; set; }
+
         [StringLength(80, ErrorMessage = "El campo no puede superar los 80 caracteres"), Required(ErrorMessage = "El campo no puede estar vacio")]
         [Display(Name = "E-Mail")]
         [DataType(DataType.EmailAddress)]

@@ -688,6 +688,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\ContentAdmin\Content\ArchivosCV\" />
     <Folder Include="Areas\ContentAdmin\Models\" />
   </ItemGroup>
   <ItemGroup>
