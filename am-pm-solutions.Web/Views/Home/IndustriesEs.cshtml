@@ -1,6 +1,7 @@
 ﻿
 @{
     ViewBag.Title = "IndustriesEs";
+    Layout = "~/Views/Shared/_LayoutEs.cshtml";
 }
 
 <main id="main">
@@ -30,7 +31,7 @@
                         Colaboramos con proveedores de servicios lingüísticos en la gestión y conducción de sus proyectos...
                     </h4>
                     <br>
-                    <a href="industrias-traduccion.html"><i class="icofont-arrow-right"></i> <B>VER MÁS</B></a>
+                    <a href="@Url.Action("IndustriesTraslationEs","Home")"><i class="icofont-arrow-right"></i> <B>VER MÁS</B></a>
                 </div>
             </div>
         </div>
@@ -48,7 +49,7 @@
                         Colaboramos con empresas en general para organizar su estructura de acuerdo con el propósito y base de sus políticas...
                     </h4>
                     <br>
-                    <a href="industrias-general.html"><i class="icofont-arrow-right"></i> <B>VER MÁS</B></a>
+                    <a href="@Url.Action("IndustriesGeneralEs","Home")"><i class="icofont-arrow-right"></i> <B>VER MÁS</B></a>
                 </div>
             </div>
         </div>

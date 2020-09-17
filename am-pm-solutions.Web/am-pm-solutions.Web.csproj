@@ -675,6 +675,9 @@
     <Content Include="Views\Home\IndustriesTraslationEn.cshtml" />
     <Content Include="Views\BolsaTrabajo\IndexEn.cshtml" />
     <Content Include="Views\Contacto\IndexEn.cshtml" />
+    <Content Include="Views\Shared\_LayoutEs.cshtml" />
+    <Content Include="Views\BolsaTrabajo\IndexEs.cshtml" />
+    <Content Include="Views\Contacto\IndexEs.cshtml" />
     <Content Include="Views\Home\IndexEs.cshtml" />
     <Content Include="Views\Home\CompanyEs.cshtml" />
     <Content Include="Views\Home\ServicesEs.cshtml" />
@@ -683,13 +686,12 @@
     <Content Include="Views\Home\IndustriesEs.cshtml" />
     <Content Include="Views\Home\IndustriesGeneralEs.cshtml" />
     <Content Include="Views\Home\IndustriesTraslationEs.cshtml" />
-    <Content Include="Views\BolsaTrabajo\IndexEs.cshtml" />
-    <Content Include="Views\Contacto\IndexEs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\ContentAdmin\Content\ArchivosCV\" />
     <Folder Include="Areas\ContentAdmin\Models\" />
+    <Folder Include="Views\PruebaEspañol\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

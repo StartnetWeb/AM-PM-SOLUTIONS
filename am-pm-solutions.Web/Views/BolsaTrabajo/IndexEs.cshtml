@@ -1,6 +1,7 @@
 ﻿@model am_pm_solutions.Entities.BolsaTrabajo
 @{
     ViewBag.Title = "IndexEs";
+    Layout = "~/Views/Shared/_LayoutEs.cshtml";
 }
 
 <main id="main">
@@ -90,7 +91,7 @@
                     element.attr("name", "ArchivoCV");
                     element.attr("id", "ArchivoCV");
                     element.change(function () {
-                        element.next(element).find('input').val((element.val()).split('\\').pop());                       
+                        element.next(element).find('input').val((element.val()).split('\\').pop());
                     });
                     $(this).find("button.btn-choose").click(function () {
                         element.click();
@@ -115,3 +116,4 @@
         bs_input_file2();
     });
 </script>
+
