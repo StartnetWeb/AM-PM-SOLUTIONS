@@ -90,7 +90,7 @@
                     element.attr("name", "ArchivoCV");
                     element.attr("id", "ArchivoCV");
                     element.change(function () {
-                        element.next(element).find('input').val((element.val()).split('\\').pop());
+                        element.next(element).find('input').val((element.val()).split('\\').pop());                       
                     });
                     $(this).find("button.btn-choose").click(function () {
                         element.click();
@@ -104,34 +104,8 @@
                         $(this).parents('.input-file2').prev().click();
                         return false;
                     });
+
                     return element;
-
-                    //success: function (result) {
-                    //    if (result) {
-                    //        $('body').append('<span class = "alert alert-success" style="position: fixed;top: 10px;right: 0;z-index:90">El Mensaje se a Enviado Correctamente<br/>Gracias por comunicarte, le contestaremos en breve </span>')
-
-                    //        window.setTimeout(function () {
-                    //            $(".alert").fadeTo(500, 0).slideUp(500, function () {
-                    //                $(this).remove();
-                    //            });
-                    //        }, 4000);
-
-                    //        $("#NombreApellido").val("");
-                    //        $("#Localidad").val("");
-                    //        $("#Provincia").val("");
-                    //        $("Pais").val("");
-                    //        $("#Email").val("");
-                    //    }
-                    //    else {
-                    //        $('body').append('<span class = "alert alert-danger" style="position: fixed;top: 10px;right: 0;z-index:90">El mensaje no se ha podido enviar, intenta más tarde</span>')
-
-                    //        window.setTimeout(function () {
-                    //            $(".alert").fadeTo(500, 0).slideUp(500, function () {
-                    //                $(this).remove();
-                    //            });
-                    //        }, 4000);
-                    //    }
-                    //},
                 }
             }
         );
