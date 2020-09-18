@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #5C768D;
-  text-align: justify;
+  text-align: left;
 }
 
 a {
@@ -135,6 +135,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: relative;
   white-space: nowrap;
   float: left;
+  font-weight: bold;
 }
 
 .nav-menu a {
@@ -334,14 +335,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 114px);
+  height: calc(75vh - 114px);
   padding: 0;
   overflow: hidden;
 }
 
 #hero .carousel-item {
   width: 100%;
-  height: calc(100vh - 114px);
+  height: calc(75vh - 114px);
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
