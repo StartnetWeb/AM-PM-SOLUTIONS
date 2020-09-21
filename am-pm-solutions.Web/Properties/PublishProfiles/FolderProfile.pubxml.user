@@ -7,6 +7,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <_PublishTargetUrl>C:\Users\Isidro\Desktop\PUBLICACIONES\publicacion AmPmSolutions</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="Areas/ContentAdmin/Content/ArchivosCV/clase 8Clip.pdf">
+      <publishTime>09/21/2020 15:59:15</publishTime>
+    </File>
     <File Include="Areas/ContentAdmin/Content/fonts/fontawesome-webfont.eot">
       <publishTime>09/21/2020 15:59:15</publishTime>
     </File>
@@ -887,10 +890,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/21/2020 16:44:54</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.Web.dll">
-      <publishTime>09/21/2020 16:44:54</publishTime>
+      <publishTime>09/21/2020 17:53:30</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.Web.pdb">
-      <publishTime>09/21/2020 16:44:54</publishTime>
+      <publishTime>09/21/2020 17:53:30</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>09/21/2020 15:59:15</publishTime>
@@ -1384,6 +1387,15 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="Content/ImgSpanish/img/services/translation-localization.jpg">
       <publishTime>09/21/2020 15:59:15</publishTime>
     </File>
+    <File Include="Content/ImgSpanish/img/slide/slide-1.jpg">
+      <publishTime>09/21/2020 15:59:15</publishTime>
+    </File>
+    <File Include="Content/ImgSpanish/img/slide/slide-2.jpg">
+      <publishTime>09/21/2020 15:59:15</publishTime>
+    </File>
+    <File Include="Content/ImgSpanish/img/slide/slide-3.jpg">
+      <publishTime>09/21/2020 15:59:15</publishTime>
+    </File>
     <File Include="Content/ImgSpanish/img/team/team-1.jpg">
       <publishTime>09/21/2020 15:59:15</publishTime>
     </File>
@@ -1697,16 +1709,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/21/2020 15:59:15</publishTime>
     </File>
     <File Include="Views/BolsaTrabajo/IndexEn.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 17:27:28</publishTime>
     </File>
     <File Include="Views/BolsaTrabajo/IndexEs.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 17:26:01</publishTime>
     </File>
     <File Include="Views/Contacto/IndexEn.cshtml">
-      <publishTime>09/21/2020 16:17:40</publishTime>
+      <publishTime>09/21/2020 17:50:56</publishTime>
     </File>
     <File Include="Views/Contacto/IndexEs.cshtml">
-      <publishTime>09/21/2020 16:09:24</publishTime>
+      <publishTime>09/21/2020 17:51:52</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>09/21/2020 15:59:15</publishTime>
@@ -1721,10 +1733,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/21/2020 15:59:15</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/21/2020 16:13:35</publishTime>
+      <publishTime>09/21/2020 17:45:29</publishTime>
     </File>
     <File Include="Views/Home/IndexEs.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 17:46:14</publishTime>
     </File>
     <File Include="Views/Home/IndustriesEn.cshtml">
       <publishTime>09/21/2020 15:59:15</publishTime>
@@ -1754,7 +1766,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/21/2020 15:59:15</publishTime>
     </File>
     <File Include="Views/Home/ServicesEs.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 17:48:35</publishTime>
     </File>
     <File Include="Views/Home/ServicesProjectMangementEn.cshtml">
       <publishTime>09/21/2020 15:59:15</publishTime>

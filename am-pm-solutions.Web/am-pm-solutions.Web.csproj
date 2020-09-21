@@ -621,7 +621,7 @@
     <Content Include="Content\vendor\jquery\jquery.min.map" />
     <Content Include="Content\vendor\owl.carousel\LICENSE" />
     <Content Include="Content\vendor\owl.carousel\README.md" />
-    <Content Include="Areas\ContentAdmin\Content\ArchivosCV\clase 8Clip.pdf" />
+    <Content Include="Content\ArchivosCV\sample-file %281%29.pdf" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

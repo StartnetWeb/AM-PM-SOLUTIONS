@@ -29,7 +29,7 @@ namespace am_pm_solutions.Web.Controllers
                 if(bolsaTrabajo.ArchivoCV != null)
                 {
                     bolsaTrabajo.NombreArchivoCV = Path.GetFileName(bolsaTrabajo.ArchivoCV.FileName);
-                    string _path = Path.Combine(Server.MapPath("~/Areas/ContentAdmin/Content/ArchivosCV"), bolsaTrabajo.NombreArchivoCV);
+                    string _path = Path.Combine(Server.MapPath("~/Content/ArchivosCV"), bolsaTrabajo.NombreArchivoCV);
                     bolsaTrabajo.ArchivoCV.SaveAs(_path);
                 }
 
@@ -80,7 +80,7 @@ namespace am_pm_solutions.Web.Controllers
                 if (bolsaTrabajo.ArchivoCV != null)
                 {
                     bolsaTrabajo.NombreArchivoCV = Path.GetFileName(bolsaTrabajo.ArchivoCV.FileName);
-                    string _path = Path.Combine(Server.MapPath("~/Areas/ContentAdmin/Content/ArchivosCV"), bolsaTrabajo.NombreArchivoCV);
+                    string _path = Path.Combine(Server.MapPath("~/Content/ArchivosCV"), bolsaTrabajo.NombreArchivoCV);
                     bolsaTrabajo.ArchivoCV.SaveAs(_path);
                 }
 
