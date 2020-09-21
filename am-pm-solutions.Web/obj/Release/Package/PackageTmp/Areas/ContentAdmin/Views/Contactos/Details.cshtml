@@ -1,0 +1,57 @@
+﻿@model am_pm_solutions.Entities.Contacto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div id="title-breadcrumb-option-demo" class="page-title-breadcrumb">
+    <div class="page-header pull-left">
+        <div class="page-title">
+            Detalle de Contacto
+        </div>
+    </div>
+    <ol class="breadcrumb page-breadcrumb pull-right">
+        <li><i class="fa fa-home"></i>&nbsp;<a href="@Url.Action("Index", "Home")">Principal</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
+        <li class="hidden"><a href="@Url.Action("Index", "Home")">Principal</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
+        <li><i class="fa fa-home"></i>&nbsp;<a href="@Url.Action("Index", "Contactos")">Contacto</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
+        <li class="hidden"><a href="@Url.Action("Index", "Contactos")">Contacto</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
+        <li class="active">Detalle de Contacto</li>
+    </ol>
+    <div class="clearfix">
+    </div>
+</div>
+
+<div class="page-content">
+    <div id="tab-general">
+        <div id="sum_box" class="row mbl">
+            <div class="col-lg-12 col-sm-12 col-md-12">
+                <table class="table table-bordered table-hover table-condensed ">
+                    <tbody>
+                        <tr class="active">
+                            <th width="20%" scope="col">Fecha Contacto</th>
+                            <td>@Model.FechaContacto</td>
+                        </tr>
+                        <tr>
+                            <th width="20%" scope="col">Nombre y Apellido</th>
+                            <td>@Model.NombreApellido</td>
+                        </tr>
+                        <tr>
+                            <th width="20%" scope="col">Telefono</th>
+                            <td>@Model.Telefono</td>
+                        </tr>
+                        <tr>
+                            <th width="20%" scope="col">Email</th>
+                            <td>@Model.Email</td>
+                        </tr>
+                        <tr>
+                            <th width="20%" scope="col">Mensaje</th>
+                            <td>@Model.Mensaje</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <div align="center"><a href="@Url.Action("Index")" class="btn btn-primary">VOLVER</a></div>
+            </div>
+        </div>
+    </div>
+</div>

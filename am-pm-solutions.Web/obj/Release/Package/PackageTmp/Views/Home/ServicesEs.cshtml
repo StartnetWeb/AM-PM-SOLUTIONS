@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "ServicesEs";
+    Layout = "~/Views/Shared/_LayoutEs.cshtml";
+}
+
+<main id="main">
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-center">
+                <h2>SERVICIOS</h2>
+                <ol>
+                    <li><a href="@Url.Action("IndexEs","Home")">HOME</a></li>
+                    <li>SERVICIOS</li>
+                </ol>
+            </div>
+
+        </div>
+    </section><!-- End Breadcrumbs Section -->
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4 video-box">
+                    <img src="~/Content/ImgSpanish/img/services/project-management.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 d-flex flex-column justify-content-center about-content">
+                    <h2 class="titulos"><b>GESTIÓN DE PROYECTOS</b></h2>
+                    <br>
+                    <h4>
+                        Gestionar proyectos es la práctica de aplicar conocimiento, habilidades, procesos, recursos, métodos, experiencia, herramientas y tecnología para lograr los propósitos y objetivos...
+                    </h4>
+                    <br>
+                    <a href="@Url.Action("ServicesProjectMangementEs","Home")"><i class="icofont-arrow-right"></i> <B>LEER MÁS</B></a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4 video-box">
+                    <img src="~/Content/ImgSpanish/img/services/consulting.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 d-flex flex-column justify-content-center about-content">
+                    <h2 class="titulos"><b>CONSULTORÍA</b></h2>
+                    <br>
+                    <h4>
+                        Consultoría es la práctica de asesorar y aconsejar a las empresas o personas sobre un campo...
+                    </h4>
+                    <br>
+                    <a href="servicios-consultoria.html"><i class="icofont-arrow-right"></i> <B>LEER MÁS</B></a>
+                </div>
+            </div>
+        </div>
+    </section><!-- End About Us Section -->
+
+</main><!-- End #main -->

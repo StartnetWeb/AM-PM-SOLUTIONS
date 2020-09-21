@@ -1,0 +1,154 @@
+﻿
+@{
+    ViewBag.Title = "IndexEs";
+    Layout = "~/Views/Shared/_LayoutEs.cshtml";
+}
+
+<main id="main">
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2>CONTACTO</h2>
+                <ol>
+                    <li><a href="@Url.Action("IndexEs","Home")">HOME</a></li>
+                    <li>CONTACTO</li>
+                </ol>
+            </div>
+        </div>
+    </section><!-- End Breadcrumbs Section -->
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
+                    <div class="info-box">
+                        <i class="bx bx-map"></i>
+                        <h3>Our Address</h3>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="info-box">
+                        <i class="bx bx-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p>info@example.com<br>contact@example.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="info-box ">
+                        <i class="bx bx-phone-call"></i>
+                        <h3>Call Us</h3>
+                        <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                    </div>
+                </div>
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="form-row">
+                        <div class="col-lg-6 form-group">
+                            <input type="text" class="form-control" id="NombreApellido" name="NombreApellido" placeholder="Su Nombre y Apellido (*)">
+                        </div>
+                        <div class="col-lg-6 form-group">
+                            <input type="email" class="form-control" name="Email" id="Email" placeholder="Su Email (*)">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-4 form-group">
+                            <input type="text" name="Direccion" class="form-control" id="Direccion" placeholder="Su dirección (*)">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <input type="text" onkeypress="return justNumbers(event);" class="form-control" name="Telefono" id="Telefono" placeholder="Su Teléfono (*)">
+                        </div>
+                        <div class="col-lg-4 form-group">
+                            <select name="pais" id="Pais" class="form-control">
+                                <option>Seleccione su País (*)</option>
+                                <option>Argentina</option>
+                                <option>Estados Unidos</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="Mensaje" id="Mensaje" rows="5" placeholder="Su Mensaje (*)"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn_Send" type="submit" id="contact_form_submit">Enviar Mensaje</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Contact Us Section -->
+</main><!-- End #main -->
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script>
+    $("#contact_form_submit").on('click', function () {
+        var NombreApellido = $("#NombreApellido").val();
+        var Telefono = $("#Telefono").val();
+        var Email = $("#Email").val();
+        var Mensaje = $("#Mensaje").val();
+        var Direccion = $("#Direccion").val();
+        var Pais = $("#Pais").val();
+        EnviarCorreo(NombreApellido, Telefono, Email, Mensaje, Direccion, Pais);
+    })
+    function EnviarCorreo(NombreApellido, Telefono, Email, Mensaje, Direccion, Pais) {
+        $.ajax({
+            type: "POST",
+            traditional: true,
+            async: true,
+            cache: false,
+            url: '@Url.Action("IndexEs", "Contacto")',
+            context: document.body,
+            data: {
+                NombreApellido: NombreApellido,
+                Telefono: Telefono,
+                Email: Email,
+                Mensaje: Mensaje,
+                Direccion: Direccion,
+                Pais: Pais
+            },
+            success: function (result) {
+                if (result) {
+                    $('body').append('<span class = "alert alert-success" style="position: fixed;top: 10px;right: 0;z-index:90">El Mensaje se a Enviado Correctamente<br/>Gracias por comunicarte, le contestaremos en breve </span>')
+
+                    window.setTimeout(function () {
+                        $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                            $(this).remove();
+                        });
+                    }, 4000);
+
+                    $("#NombreApellido").val("");
+                    $("#Telefono").val("");
+                    $("#Email").val("");
+                    $("#Mensaje").val("");
+                    $("#Direccion").val("");
+                    $("#Pais").val("");
+                }
+                else {
+                    $('body').append('<span class = "alert alert-danger" style="position: fixed;top: 10px;right: 0;z-index:90">El mensaje no se ha podido enviar, intenta más tarde</span>')
+
+                    window.setTimeout(function () {
+                        $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                            $(this).remove();
+                        });
+                    }, 4000);
+                }
+            },
+            error: function (xhr) {
+                $('body').append('<span class = "alert alert-danger" style="position: fixed;top: 10px;right: 0;z-index:90">El mensaje no se ha podido enviar, intenta más tarde</span>')
+
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 4000);
+            }
+        });
+    }
+    function justNumbers(e) {
+        var keynum = window.event ? window.event.keyCode : e.which;
+        if ((keynum == 8 || keynum == 48))
+            return true;
+        if (keynum <= 47 || keynum >= 58) return false;
+        return /\d/.test(String.fromCharCode(keynum));
+    }
+</script>
+

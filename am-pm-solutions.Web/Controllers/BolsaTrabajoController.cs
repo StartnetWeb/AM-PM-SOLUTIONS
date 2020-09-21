@@ -110,13 +110,9 @@ namespace am_pm_solutions.Web.Controllers
                     email2.sendEmail(to2, from2, user2, password2, subject2, emailBody2);
                 }
 
-                //return View();
-                //return Json(true, JsonRequestBehavior.AllowGet);
                 return RedirectToAction("IndexEs");
             }
 
-            //return View();
-            //return Json(true, JsonRequestBehavior.AllowGet);
             return RedirectToAction("IndexEs");
         }
 

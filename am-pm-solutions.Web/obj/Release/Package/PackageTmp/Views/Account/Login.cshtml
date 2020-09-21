@@ -1,0 +1,64 @@
+﻿@using am_pm_solutions.Web.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Iniciar sesión";
+    Layout = null;
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ContentAdmin | Sistema Administrador</title>
+    <link href="~/Content/Login/CssLogin/login.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image\/png" href="~/Content/images/favicon/favicon.png" />
+</head>
+
+<body>
+
+    <div align="center"><img src="~/Content/Login/images/login/logo_contentadmin.jpg"></div>
+    <p></p>
+    <div id="capa_cuerpo_login">
+        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <table border="0" width="100%" height="100">
+                <tr>
+                    <td width="5%">&nbsp;</td>
+                    <td colspan="5">
+                        <h2>LOGIN DE ACCESO</h2>
+                        <P></P>
+                        Ingrese el usuario y contraseña para poder acceder al Sistema Administrador.
+                        &nbsp;
+                        <p></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="5%">&nbsp;</td>
+                    <td width="35%"><b>NOMBRE DE USUARIO:</b></td>
+                    <td rowspan="2" width="1px" height="50px" bgcolor="#dcdcdc"></td>
+                    <td width="5%">&nbsp;</td>
+                    <td><input type="text" name="Email" id="Email" required class="texto10"> </td>
+                    <td width="5%">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width="5%">&nbsp;</td>
+                    <td width="35%"><b>CONTRASEÑA:</b></td>
+                    <td width="5%">&nbsp;</td>
+                    <td><input type="password" name="Password" id="Password" required class="texto10"></td>
+                    <td width="5%">&nbsp;</td>
+                </tr>
+            </table>
+            <P>
+
+                <div align="center"><input type="submit" name="ingresar" value="INGRESAR" class="boton"></div>
+                &nbsp;
+            </P>
+        }
+    </div>
+</body>
+</html>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

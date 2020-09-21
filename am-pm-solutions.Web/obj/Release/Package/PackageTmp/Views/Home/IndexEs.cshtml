@@ -1,0 +1,102 @@
+﻿
+@{
+    ViewBag.Title = "IndexEs";
+    Layout = "~/Views/Shared/_LayoutEs.cshtml";
+}
+
+<section id="hero">
+    <div class="hero-container">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide 1 -->
+                <div class="carousel-item active" style="background-image: url('../../Content/ImgSpanish/img/slide/slide-1.jpg');">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animate__animated animate__fadeInDown">Bienvenidos a <span>AM-PM Solutions</span></h2>
+                            <p class="animate__animated animate__fadeInUp">AM-PM Solutions Global Management es tu colaborador esencial para obtener soluciones en la gestión de tu negocio desde un punto de vista integrado y organizativo.</p>
+                            <a href="@Url.Action("CompanyEs","Home")" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item" style="background-image: url('../../Content/ImgSpanish/img/slide/slide-2.jpg');">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animate__animated animate__fadeInDown">Bienvenidos a <span>AM-PM Solutions</span></h2>
+                            <p class="animate__animated animate__fadeInUp">Brindamos los mejores recursos y herramientas a tu empresa para encarar los desafíos de lidiar con proyectos desde su inicio hasta su finalización teniendo en cuenta todos los aspectos del proceso</p>
+                            <a href="@Url.Action("CompanyEs","Home")" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item" style="background-image: url('../../Content/ImgSpanish/img/slide/slide-3.jpg');">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animate__animated animate__fadeInDown">Bienvenidos a <span>AM-PM Solutions</span></h2>
+                            <p class="animate__animated animate__fadeInUp">Nos apasiona encontrar y brindar el recurso indicado para que encaje en el rol requerido; para ello aplicamos estrategias que se aplican a sus necesidades actuales.</p>
+                            <a href="@Url.Action("CompanyEs","Home")" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section><!-- End Hero -->
+<main id="main">
+    <!-- ======= Counts Section ======= -->
+    <section class="counts section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>SERVICIOS</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up">
+                    <a href="@Url.Action("ServicesProjectMangementEs","Home")">
+                        <div class="count-box">
+                            <i class="icofont-ui-folder" style="color: #EB8533;"></i>
+                            <p>GESTIÓN DE PROYECTOS</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
+                    <a href="@Url.Action("ServicesConsultancyEs","Home")">
+                        <div class="count-box">
+                            <i class="icofont-users-alt-5" style="color: #EB8533;"></i>
+                            <p>CONSULTORÍA</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Counts Section -->
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>INDUSTRIAS</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
+                    <div class="icon"><i class="icofont-location-pin" style="color: #EB8533;"></i></div>
+                    <h4 class="title"><a href="@Url.Action("IndustriesTraslationEs","Home")">GESTIÓN DE PROYECTOS EN LA INDUSTRIA DE LA TRADUCCIÓN Y LOCALIZACIÓN</a></h4>
+                    <p class="description">Colaboramos con proveedores de servicios lingüísticos en la gestión y conducción de sus proyectos brindando los mejores recursos para lidiar con el proceso..</p>
+                </div>
+                <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon"><i class="icofont-company" style="color: #EB8533;"></i></div>
+                    <h4 class="title"><a href="@Url.Action("IndustriesGeneralEs","Home")">GESTIÓN DE PROYECTOS EN <BR>EMPRESAS EN GENERAL</a></h4>
+                    <p class="description">Colaboramos con empresas en general para organizar su estructura de acuerdo con el propósito y base de sus políticas...</p>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Services Section -->
+</main><!-- End #main -->
