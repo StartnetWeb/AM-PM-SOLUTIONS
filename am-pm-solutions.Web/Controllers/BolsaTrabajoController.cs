@@ -103,15 +103,14 @@ namespace am_pm_solutions.Web.Controllers
                     string from2 = "emailprobando5@gmail.com";
                     string user2 = "emailprobando5@gmail.com";
                     string password2 = "holachau";
-                    string subject2 = "Gracias por su mensaje";
-                    string emailBody2 = "Su mensaje nos ha llegado correctamente. Saludos. <br /> AM-PM SOLUTIONS";
+                    string subject2 = "Thank you for your message";
+                    string emailBody2 = "Thank you for your message, we will answer you shortly. <br /> AM-PM SOLUTIONS";
 
                     Email email2 = new Email();
                     email2.sendEmail(to2, from2, user2, password2, subject2, emailBody2);
                 }
 
                 //return View();
-
                 //return Json(true, JsonRequestBehavior.AllowGet);
                 return RedirectToAction("IndexEs");
             }
