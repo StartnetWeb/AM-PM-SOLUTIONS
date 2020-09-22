@@ -59,7 +59,7 @@ namespace am_pm_solutions.Web.Controllers
                     email2.sendEmail(to2, from2, user2, password2, subject2, emailBody2);
                 }
 
-                return RedirectToAction("IndexEn");
+                return RedirectToAction("SendCVConfirmedEn");
             }
 
             return RedirectToAction("IndexEn");
@@ -110,13 +110,21 @@ namespace am_pm_solutions.Web.Controllers
                     email2.sendEmail(to2, from2, user2, password2, subject2, emailBody2);
                 }
 
-                return RedirectToAction("IndexEs");
+                return RedirectToAction("SendCVConfirmedEs");
             }
 
             return RedirectToAction("IndexEs");
+        } 
+        
+        public ActionResult SendCVConfirmedEn()
+        {
+            return View();
         }
 
-        
+        public ActionResult SendCVConfirmedEs()
+        {
+            return View();
+        }
 
     }
 }

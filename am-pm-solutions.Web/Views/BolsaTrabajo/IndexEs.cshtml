@@ -69,10 +69,10 @@
 
                         <div class="col-lg-12 input-file2">
                             @Html.HiddenFor(model => model.ArchivoCV)
-                            <input type="file" name="archive" id="archive">
+                            <input type="file" name="ArchivoCV" id="ArchivoCV" >
                         </div>
 
-                        <div class="text-center"><button id="EnviarCV" class="btn_Send" type="submit">ENVIAR CV</button></div>
+                        <div class="text-center"><button id="EnviarCV" onsubmit="validarImagen();" class="btn_Send" type="submit">ENVIAR CV</button></div>
                     }
 
                 </div>
@@ -91,7 +91,7 @@
                     element.attr("name", "ArchivoCV");
                     element.attr("id", "ArchivoCV");
                     element.change(function () {
-                        element.next(element).find('input').val((element.val()).split('\\').pop());
+                            element.next(element).find('input').val((element.val()).split('\\').pop());                         
                     });
                     $(this).find("button.btn-choose").click(function () {
                         element.click();
