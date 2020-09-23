@@ -872,13 +872,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/21/2020 15:59:15</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.DAL.dll">
-      <publishTime>09/21/2020 16:44:54</publishTime>
+      <publishTime>09/23/2020 17:50:19</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.DAL.dll.config">
       <publishTime>09/21/2020 15:59:14</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.DAL.pdb">
-      <publishTime>09/21/2020 16:44:54</publishTime>
+      <publishTime>09/23/2020 17:50:19</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.Entities.dll">
       <publishTime>09/21/2020 16:44:54</publishTime>
@@ -890,10 +890,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/21/2020 16:44:54</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.Web.dll">
-      <publishTime>09/21/2020 18:16:44</publishTime>
+      <publishTime>09/23/2020 17:50:19</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.Web.pdb">
-      <publishTime>09/21/2020 18:16:44</publishTime>
+      <publishTime>09/23/2020 17:50:19</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>09/21/2020 15:59:15</publishTime>
@@ -1712,10 +1712,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/21/2020 15:59:15</publishTime>
     </File>
     <File Include="Views/BolsaTrabajo/IndexEn.cshtml">
-      <publishTime>09/21/2020 17:27:28</publishTime>
+      <publishTime>09/23/2020 17:42:20</publishTime>
     </File>
     <File Include="Views/BolsaTrabajo/IndexEs.cshtml">
-      <publishTime>09/21/2020 17:26:01</publishTime>
+      <publishTime>09/23/2020 17:42:21</publishTime>
+    </File>
+    <File Include="Views/BolsaTrabajo/SendCVConfirmedEn.cshtml">
+      <publishTime>09/23/2020 15:47:26</publishTime>
+    </File>
+    <File Include="Views/BolsaTrabajo/SendCVConfirmedEs.cshtml">
+      <publishTime>09/23/2020 15:47:26</publishTime>
     </File>
     <File Include="Views/Contacto/IndexEn.cshtml">
       <publishTime>09/21/2020 17:50:56</publishTime>
@@ -1748,22 +1754,22 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/21/2020 15:59:15</publishTime>
     </File>
     <File Include="Views/Home/IndustriesGeneralEn.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 18:42:13</publishTime>
     </File>
     <File Include="Views/Home/IndustriesGeneralEs.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 18:42:05</publishTime>
     </File>
     <File Include="Views/Home/IndustriesTraslationEn.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 18:41:58</publishTime>
     </File>
     <File Include="Views/Home/IndustriesTraslationEs.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 18:41:52</publishTime>
     </File>
     <File Include="Views/Home/ServicesConsultancyEn.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 18:44:43</publishTime>
     </File>
     <File Include="Views/Home/ServicesConsultancyEs.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 18:41:38</publishTime>
     </File>
     <File Include="Views/Home/ServicesEn.cshtml">
       <publishTime>09/21/2020 15:59:15</publishTime>
@@ -1772,10 +1778,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/21/2020 17:48:35</publishTime>
     </File>
     <File Include="Views/Home/ServicesProjectMangementEn.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 18:41:26</publishTime>
     </File>
     <File Include="Views/Home/ServicesProjectMangementEs.cshtml">
-      <publishTime>09/21/2020 15:59:15</publishTime>
+      <publishTime>09/21/2020 18:41:33</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>09/21/2020 15:59:15</publishTime>
@@ -1817,7 +1823,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/21/2020 15:59:15</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/21/2020 16:44:55</publishTime>
+      <publishTime>09/23/2020 17:50:20</publishTime>
     </File>
   </ItemGroup>
 </Project>
