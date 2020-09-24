@@ -468,7 +468,7 @@
     <Content Include="Content\icofont\icofont.min.css" />
     <Content Include="Content\ImgEnglish\img\about.jpg" />
     <Content Include="Content\ImgEnglish\img\apple-touch-icon.png" />
-    <Content Include="Content\ImgEnglish\img\favicon.png" />
+    <Content Include="Content\ImgEnglish\img\favicon.ico" />
     <Content Include="Content\ImgEnglish\img\industries\industrial-company.jpg" />
     <Content Include="Content\ImgEnglish\img\industries\pmc.jpg" />
     <Content Include="Content\ImgEnglish\img\industries\pmic.jpg" />
@@ -500,7 +500,7 @@
     <Content Include="Content\ImgEnglish\img\team\team-4.jpg" />
     <Content Include="Content\ImgSpanish\img\about.jpg" />
     <Content Include="Content\ImgSpanish\img\apple-touch-icon.png" />
-    <Content Include="Content\ImgSpanish\img\favicon.png" />
+    <Content Include="Content\ImgSpanish\img\favicon.ico" />
     <Content Include="Content\ImgSpanish\img\industries\industrial-company.jpg" />
     <Content Include="Content\ImgSpanish\img\industries\pmc.jpg" />
     <Content Include="Content\ImgSpanish\img\industries\pmic.jpg" />

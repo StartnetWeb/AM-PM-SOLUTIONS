@@ -30,3 +30,35 @@ C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am-
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am-pm-solutions.DAL.csproj.CopyComplete
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am-pm-solutions.DAL.dll
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am-pm-solutions.DAL.pdb
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\am-pm-solutions.DAL.dll.config
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\am-pm-solutions.DAL.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\am-pm-solutions.DAL.pdb
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\am-pm-solutions.Entities.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\EntityFramework.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\EntityFramework.SqlServer.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\System.Web.Helpers.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\System.Web.WebPages.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\System.Web.Razor.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\System.Web.WebPages.Deployment.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\am-pm-solutions.Entities.pdb
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\am-pm-solutions.Entities.dll.config
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\EntityFramework.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\EntityFramework.SqlServer.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\System.Web.Helpers.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\System.Web.WebPages.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\System.Web.Razor.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\System.Web.WebPages.Deployment.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\es\System.Web.Helpers.resources.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\es\System.Web.WebPages.resources.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\es\System.Web.Razor.resources.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\es\System.Web.WebPages.Deployment.resources.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am-pm-solutions.DAL.csprojAssemblyReference.cache
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am_pm_solutions.DAL.Migrations.init.resources
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am_pm_solutions.DAL.Migrations.Add_Campos_Contacto.resources
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am_pm_solutions.DAL.Migrations.Add_campo_Pais.resources
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am-pm-solutions.DAL.csproj.GenerateResource.cache
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am-pm-solutions.DAL.csproj.CoreCompileInputs.cache
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am-pm-solutions.DAL.csproj.CopyComplete
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am-pm-solutions.DAL.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Release\am-pm-solutions.DAL.pdb
