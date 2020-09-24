@@ -465,6 +465,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\icofont\icofont.min.css" />
     <Content Include="Content\ImgEnglish\img\about.jpg" />
     <Content Include="Content\ImgEnglish\img\apple-touch-icon.png" />
     <Content Include="Content\ImgEnglish\img\favicon.png" />
