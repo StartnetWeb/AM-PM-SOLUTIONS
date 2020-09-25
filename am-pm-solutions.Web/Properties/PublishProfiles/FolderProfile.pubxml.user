@@ -863,7 +863,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/24/2020 09:30:32</publishTime>
     </File>
     <File Include="Areas/ContentAdmin/Views/Shared/_Layout.cshtml">
-      <publishTime>09/24/2020 09:30:32</publishTime>
+      <publishTime>09/24/2020 12:36:08</publishTime>
     </File>
     <File Include="Areas/ContentAdmin/Views/web.config">
       <publishTime>09/24/2020 09:30:32</publishTime>
@@ -872,13 +872,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/24/2020 09:30:32</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.DAL.dll">
-      <publishTime>09/24/2020 12:08:07</publishTime>
+      <publishTime>09/25/2020 11:25:14</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.DAL.dll.config">
       <publishTime>09/24/2020 09:30:32</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.DAL.pdb">
-      <publishTime>09/24/2020 12:08:07</publishTime>
+      <publishTime>09/25/2020 11:25:14</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.Entities.dll">
       <publishTime>09/24/2020 12:07:57</publishTime>
@@ -890,10 +890,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/24/2020 12:07:57</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.Web.dll">
-      <publishTime>09/24/2020 12:09:52</publishTime>
+      <publishTime>09/25/2020 11:25:15</publishTime>
     </File>
     <File Include="bin/am-pm-solutions.Web.pdb">
-      <publishTime>09/24/2020 12:09:52</publishTime>
+      <publishTime>09/25/2020 11:25:15</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>09/24/2020 09:30:34</publishTime>
@@ -1228,6 +1228,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="Content/ImgEnglish/img/apple-touch-icon.png">
       <publishTime>09/24/2020 09:30:33</publishTime>
     </File>
+    <File Include="Content/ImgEnglish/img/favicon.ico">
+      <publishTime>09/24/2020 12:31:40</publishTime>
+    </File>
     <File Include="Content/ImgEnglish/img/favicon.png">
       <publishTime>09/24/2020 09:30:33</publishTime>
     </File>
@@ -1303,6 +1306,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="Content/ImgEnglish/img/slide/slide-2.jpg">
       <publishTime>09/24/2020 09:30:33</publishTime>
     </File>
+    <File Include="Content/ImgEnglish/img/slide/slide-3.jpeg">
+      <publishTime>09/25/2020 14:22:14</publishTime>
+    </File>
     <File Include="Content/ImgEnglish/img/slide/slide-3.jpg">
       <publishTime>09/24/2020 09:30:33</publishTime>
     </File>
@@ -1323,6 +1329,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="Content/ImgSpanish/img/apple-touch-icon.png">
       <publishTime>09/24/2020 09:30:33</publishTime>
+    </File>
+    <File Include="Content/ImgSpanish/img/favicon.ico">
+      <publishTime>09/24/2020 12:31:40</publishTime>
     </File>
     <File Include="Content/ImgSpanish/img/favicon.png">
       <publishTime>09/24/2020 09:30:33</publishTime>
@@ -1398,6 +1407,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="Content/ImgSpanish/img/slide/slide-2.jpg">
       <publishTime>09/24/2020 09:30:33</publishTime>
+    </File>
+    <File Include="Content/ImgSpanish/img/slide/slide-3.jpeg">
+      <publishTime>09/25/2020 14:22:14</publishTime>
     </File>
     <File Include="Content/ImgSpanish/img/slide/slide-3.jpg">
       <publishTime>09/24/2020 09:30:33</publishTime>
@@ -1694,7 +1706,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/24/2020 09:30:33</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>09/24/2020 09:30:33</publishTime>
+      <publishTime>09/24/2020 12:35:52</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
       <publishTime>09/24/2020 09:30:33</publishTime>
@@ -1730,7 +1742,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/24/2020 11:09:04</publishTime>
     </File>
     <File Include="Views/Contacto/IndexEs.cshtml">
-      <publishTime>09/24/2020 11:35:25</publishTime>
+      <publishTime>09/24/2020 12:28:06</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>09/24/2020 09:30:33</publishTime>
@@ -1745,10 +1757,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/24/2020 09:30:33</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/24/2020 11:46:15</publishTime>
+      <publishTime>09/25/2020 11:20:08</publishTime>
     </File>
     <File Include="Views/Home/IndexEs.cshtml">
-      <publishTime>09/24/2020 10:59:12</publishTime>
+      <publishTime>09/25/2020 11:20:23</publishTime>
     </File>
     <File Include="Views/Home/IndustriesEn.cshtml">
       <publishTime>09/24/2020 09:30:33</publishTime>
@@ -1811,10 +1823,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/24/2020 09:30:33</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/24/2020 09:57:00</publishTime>
+      <publishTime>09/24/2020 12:34:48</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutEs.cshtml">
-      <publishTime>09/24/2020 09:56:48</publishTime>
+      <publishTime>09/24/2020 12:35:29</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>09/24/2020 09:30:33</publishTime>

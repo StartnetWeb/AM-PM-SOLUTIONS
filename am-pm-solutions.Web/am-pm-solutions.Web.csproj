@@ -493,7 +493,7 @@
     <Content Include="Content\ImgEnglish\img\services\translation-localization.jpg" />
     <Content Include="Content\ImgEnglish\img\slide\slide-1.jpg" />
     <Content Include="Content\ImgEnglish\img\slide\slide-2.jpg" />
-    <Content Include="Content\ImgEnglish\img\slide\slide-3.jpg" />
+    <Content Include="Content\ImgEnglish\img\slide\slide-3.jpeg" />
     <Content Include="Content\ImgEnglish\img\team\team-1.jpg" />
     <Content Include="Content\ImgEnglish\img\team\team-2.jpg" />
     <Content Include="Content\ImgEnglish\img\team\team-3.jpg" />
@@ -525,7 +525,7 @@
     <Content Include="Content\ImgSpanish\img\services\translation-localization.jpg" />
     <Content Include="Content\ImgSpanish\img\slide\slide-1.jpg" />
     <Content Include="Content\ImgSpanish\img\slide\slide-2.jpg" />
-    <Content Include="Content\ImgSpanish\img\slide\slide-3.jpg" />
+    <Content Include="Content\ImgSpanish\img\slide\slide-3.jpeg" />
     <Content Include="Content\ImgSpanish\img\team\team-1.jpg" />
     <Content Include="Content\ImgSpanish\img\team\team-2.jpg" />
     <Content Include="Content\ImgSpanish\img\team\team-3.jpg" />
