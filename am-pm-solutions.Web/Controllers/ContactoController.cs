@@ -28,9 +28,9 @@ namespace am_pm_solutions.Web.Controllers
                 db.SaveChanges();
 
                 string to = "javisicardi94@gmail.com";
-                string from = "emailprobando5@gmail.com";
-                string user = "emailprobando5@gmail.com";
-                string password = "holachau";
+                string from = "no-reply@w220010.ferozo.com";
+                string user = "no-reply@w220010.ferozo.com";
+                string password = "mo67soGUru";
                 string subject = "Mensaje desde la pagina web";
                 var emailBody = "Fecha: " + contacto.FechaContacto + "<br /> Email: " + contacto.Email + "<br /> Telefono: " + contacto.Telefono + "<br /> Direccion: "+ contacto.Direccion + "<br /> País: " +contacto.Pais + "<br />" + contacto.NombreApellido + " le ha enviado el siguiente mensaje: " + contacto.Mensaje;
 
@@ -40,9 +40,9 @@ namespace am_pm_solutions.Web.Controllers
                 if (!string.IsNullOrEmpty(contacto.Email))
                 {
                     string to2 = contacto.Email;
-                    string from2 = "emailprobando5@gmail.com";
-                    string user2 = "emailprobando5@gmail.com";
-                    string password2 = "holachau";
+                    string from2 = "no-reply@w220010.ferozo.com";
+                    string user2 = "no-reply@w220010.ferozo.com";
+                    string password2 = "mo67soGUru";
                     string subject2 = "Thank you for your message";
                     string emailBody2 = "Thank you for your message, we will answer you shortly. <br /> AM-PM SOLUTIONS";
 
@@ -70,9 +70,9 @@ namespace am_pm_solutions.Web.Controllers
                 db.SaveChanges();
 
                 string to = "javisicardi94@gmail.com";
-                string from = "emailprobando5@gmail.com";
-                string user = "emailprobando5@gmail.com";
-                string password = "holachau";
+                string from = "no-reply@w220010.ferozo.com";
+                string user = "no-reply@w220010.ferozo.com";
+                string password = "mo67soGUru";
                 string subject = "Mensaje desde la pagina web";
                 var emailBody = "Fecha: " + contacto.FechaContacto + "<br /> Email: " + contacto.Email + "<br /> Telefono: " + contacto.Telefono + "<br /> Direccion: " + contacto.Direccion + "<br /> País: " + contacto.Pais + "<br />" + contacto.NombreApellido + " le ha enviado el siguiente mensaje: " + contacto.Mensaje;
 
@@ -82,9 +82,9 @@ namespace am_pm_solutions.Web.Controllers
                 if (!string.IsNullOrEmpty(contacto.Email))
                 {
                     string to2 = contacto.Email;
-                    string from2 = "emailprobando5@gmail.com";
-                    string user2 = "emailprobando5@gmail.com";
-                    string password2 = "holachau";
+                    string from2 = "no-reply@w220010.ferozo.com";
+                    string user2 = "no-reply@w220010.ferozo.com";
+                    string password2 = "mo67soGUru";
                     string subject2 = "Gracias por su mensaje";
                     string emailBody2 = "Gracias por su mensaje, le contestaremos en breve. <br /> AM-PM SOLUTIONS";
 

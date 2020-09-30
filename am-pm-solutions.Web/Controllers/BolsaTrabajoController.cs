@@ -37,8 +37,8 @@ namespace am_pm_solutions.Web.Controllers
                 db.SaveChanges();
 
                 string to = "javisicardi94@gmail.com";
-                string from = "emailprobando5@gmail.com";
-                string user = "emailprobando5@gmail.com";
+                string from = "no-reply@w220010.ferozo.com";
+                string user = "no-reply@w220010.ferozo.com";
                 string password = "holachau";
                 string subject = "Mensaje desde la pagina web";
                 var emailBody = "Buenas, tiene una nueva bolsa de trabajo en el ContentAdmin de su pagina web. Saludos";
@@ -88,9 +88,9 @@ namespace am_pm_solutions.Web.Controllers
                 db.SaveChanges();
 
                 string to = "javisicardi94@gmail.com";
-                string from = "emailprobando5@gmail.com";
-                string user = "emailprobando5@gmail.com";
-                string password = "holachau";
+                string from = "no-reply@w220010.ferozo.com";
+                string user = "no-reply@w220010.ferozo.com";
+                string password = "mo67soGUru";
                 string subject = "Mensaje desde la pagina web";
                 var emailBody = "Buenas, tiene una nueva bolsa de trabajo en el ContentAdmin de su pagina web. Saludos";
 
@@ -102,7 +102,7 @@ namespace am_pm_solutions.Web.Controllers
                     string to2 = bolsaTrabajo.Email;
                     string from2 = "emailprobando5@gmail.com";
                     string user2 = "emailprobando5@gmail.com";
-                    string password2 = "holachau";
+                    string password2 = "mo67soGUru";
                     string subject2 = "Thank you for your message";
                     string emailBody2 = "Thank you for your message, we will answer you shortly. <br /> AM-PM SOLUTIONS";
 

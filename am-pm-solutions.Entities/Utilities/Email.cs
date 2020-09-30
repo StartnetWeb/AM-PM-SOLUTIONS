@@ -16,10 +16,10 @@ namespace am_pm_solutions.Entities.Utilities
 
         public Email()
         {
-            smtpServer = "smtp.gmail.com";
+            smtpServer = "mail.am-pmsolutions.com";
             smtpPort = 587;
             smtpCredentials = true;
-            enableSsl = true;
+            enableSsl = false;
         }
 
         public string sendEmail(string to, string from, string user, string password, string subject, string emailBody)
