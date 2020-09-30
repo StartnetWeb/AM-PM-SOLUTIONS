@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  /*top: 80px;*/
+  top: 68px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -312,7 +312,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 1;
   cursor: pointer;
   text-align: right;
-  bottom: 560px;
 }
 
 .mobile-nav-toggle i {
