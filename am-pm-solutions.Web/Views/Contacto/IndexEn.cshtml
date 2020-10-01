@@ -105,7 +105,7 @@
             },
             success: function (result) {
                 if (result) {
-                    $('body').append('<span class = "alert alert-success" style="position: fixed;top: 10px;right: 0;z-index:90">El Mensaje se a Enviado Correctamente<br/>Gracias por comunicarte, le contestaremos en breve </span>')
+                    $('body').append('<span class = "alert alert-success" style="position: fixed;top: 10px;right: 0;z-index:90">The message was sent successfully! <br/>Thanks for contacting us; we will reply to you shortly </span>')
 
                     window.setTimeout(function () {
                         $(".alert").fadeTo(500, 0).slideUp(500, function () {
@@ -121,7 +121,7 @@
                     $("#Pais").val("select a Contries (*)");
                 }
                 else {
-                    $('body').append('<span class = "alert alert-danger" style="position: fixed;top: 10px;right: 0;z-index:90">El mensaje no se ha podido enviar, intenta más tarde</span>')
+                    $('body').append('<span class = "alert alert-danger" style="position: fixed;top: 10px;right: 0;z-index:90">The message was not sent, please try later</span>')
 
                     window.setTimeout(function () {
                         $(".alert").fadeTo(500, 0).slideUp(500, function () {
@@ -131,7 +131,7 @@
                 }
             },
             error: function (xhr) {
-                $('body').append('<span class = "alert alert-danger" style="position: fixed;top: 10px;right: 0;z-index:90">El mensaje no se ha podido enviar, intenta más tarde</span>')
+                $('body').append('<span class = "alert alert-danger" style="position: fixed;top: 10px;right: 0;z-index:90">The message was not sent, please try later</span>')
 
                 window.setTimeout(function () {
                     $(".alert").fadeTo(500, 0).slideUp(500, function () {

@@ -36,10 +36,10 @@ namespace am_pm_solutions.Web.Controllers
                 db.BolsaTrabajo.Add(bolsaTrabajo);
                 db.SaveChanges();
 
-                string to = "javisicardi94@gmail.com";
-                string from = "no-reply@w220010.ferozo.com";
-                string user = "no-reply@w220010.ferozo.com";
-                string password = "holachau";
+                string to = "info@am-pmsolutions.com";
+                string from = "no-reply@am-pmsolutions.com";
+                string user = "no-reply@am-pmsolutions.com";
+                string password = "zQj*HKe4fE";
                 string subject = "Mensaje desde la pagina web";
                 var emailBody = "Buenas, tiene una nueva bolsa de trabajo en el ContentAdmin de su pagina web. Saludos";
 
@@ -49,11 +49,11 @@ namespace am_pm_solutions.Web.Controllers
                 if (!string.IsNullOrEmpty(bolsaTrabajo.Email))
                 {
                     string to2 = bolsaTrabajo.Email;
-                    string from2 = "emailprobando5@gmail.com";
-                    string user2 = "emailprobando5@gmail.com";
-                    string password2 = "holachau";
+                    string from2 = "no-reply@am-pmsolutions.com";
+                    string user2 = "no-reply@am-pmsolutions.com";
+                    string password2 = "zQj*HKe4fE";
                     string subject2 = "Gracias por su mensaje";
-                    string emailBody2 = "Su mensaje nos ha llegado correctamente. Saludos. <br /> AM-PM SOLUTIONS";
+                    string emailBody2 = "Thanks a lot for your message! Your CV was sent successfully! <br /> AM-PM SOLUTIONS<br /><br />Please, do not answer this message, it is an automatic sending";
 
                     Email email2 = new Email();
                     email2.sendEmail(to2, from2, user2, password2, subject2, emailBody2);
@@ -87,10 +87,10 @@ namespace am_pm_solutions.Web.Controllers
                 db.BolsaTrabajo.Add(bolsaTrabajo);
                 db.SaveChanges();
 
-                string to = "javisicardi94@gmail.com";
-                string from = "no-reply@w220010.ferozo.com";
-                string user = "no-reply@w220010.ferozo.com";
-                string password = "mo67soGUru";
+                string to = "info@am-pmsolutions.com";
+                string from = "no-reply@am-pmsolutions.com";
+                string user = "no-reply@am-pmsolutions.com";
+                string password = "zQj*HKe4fE";
                 string subject = "Mensaje desde la pagina web";
                 var emailBody = "Buenas, tiene una nueva bolsa de trabajo en el ContentAdmin de su pagina web. Saludos";
 
@@ -100,11 +100,11 @@ namespace am_pm_solutions.Web.Controllers
                 if (!string.IsNullOrEmpty(bolsaTrabajo.Email))
                 {
                     string to2 = bolsaTrabajo.Email;
-                    string from2 = "emailprobando5@gmail.com";
-                    string user2 = "emailprobando5@gmail.com";
-                    string password2 = "mo67soGUru";
+                    string from2 = "no-reply@am-pmsolutions.com";
+                    string user2 = "no-reply@am-pmsolutions.com";
+                    string password2 = "zQj*HKe4fE";
                     string subject2 = "Thank you for your message";
-                    string emailBody2 = "Thank you for your message, we will answer you shortly. <br /> AM-PM SOLUTIONS";
+                    string emailBody2 = "Su mensaje nos ha llegado correctamente. Saludos. <br /> AM-PM SOLUTIONS<br /><br />Por favor, no responda a este mensaje, es un envío automático.";
 
                     Email email2 = new Email();
                     email2.sendEmail(to2, from2, user2, password2, subject2, emailBody2);

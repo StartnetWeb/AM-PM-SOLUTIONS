@@ -27,10 +27,10 @@ namespace am_pm_solutions.Web.Controllers
                 db.Contacto.Add(contacto);
                 db.SaveChanges();
 
-                string to = "javisicardi94@gmail.com";
-                string from = "no-reply@w220010.ferozo.com";
-                string user = "no-reply@w220010.ferozo.com";
-                string password = "mo67soGUru";
+                string to = "info@am-pmsolutions.com";
+                string from = "no-reply@am-pmsolutions.com";
+                string user = "no-reply@am-pmsolutions.com";
+                string password = "zQj*HKe4fE";
                 string subject = "Mensaje desde la pagina web";
                 var emailBody = "Fecha: " + contacto.FechaContacto + "<br /> Email: " + contacto.Email + "<br /> Telefono: " + contacto.Telefono + "<br /> Direccion: "+ contacto.Direccion + "<br /> País: " +contacto.Pais + "<br />" + contacto.NombreApellido + " le ha enviado el siguiente mensaje: " + contacto.Mensaje;
 
@@ -40,11 +40,11 @@ namespace am_pm_solutions.Web.Controllers
                 if (!string.IsNullOrEmpty(contacto.Email))
                 {
                     string to2 = contacto.Email;
-                    string from2 = "no-reply@w220010.ferozo.com";
-                    string user2 = "no-reply@w220010.ferozo.com";
-                    string password2 = "mo67soGUru";
+                    string from2 = "no-reply@am-pmsolutions.com";
+                    string user2 = "no-reply@am-pmsolutions.com";
+                    string password2 = "zQj*HKe4fE";
                     string subject2 = "Thank you for your message";
-                    string emailBody2 = "Thank you for your message, we will answer you shortly. <br /> AM-PM SOLUTIONS";
+                    string emailBody2 = "Thanks for contacting us; we will reply to you shortly <br /> AM-PM SOLUTIONS<br /><br />Please, do not answer this message, it is an automatic sending";
 
                     Email email2 = new Email();
                     email2.sendEmail(to2, from2, user2, password2, subject2, emailBody2);
@@ -69,10 +69,10 @@ namespace am_pm_solutions.Web.Controllers
                 db.Contacto.Add(contacto);
                 db.SaveChanges();
 
-                string to = "javisicardi94@gmail.com";
-                string from = "no-reply@w220010.ferozo.com";
-                string user = "no-reply@w220010.ferozo.com";
-                string password = "mo67soGUru";
+                string to = "info@am-pmsolutions.com";
+                string from = "no-reply@am-pmsolutions.com";
+                string user = "no-reply@am-pmsolutions.com";
+                string password = "zQj*HKe4fE";
                 string subject = "Mensaje desde la pagina web";
                 var emailBody = "Fecha: " + contacto.FechaContacto + "<br /> Email: " + contacto.Email + "<br /> Telefono: " + contacto.Telefono + "<br /> Direccion: " + contacto.Direccion + "<br /> País: " + contacto.Pais + "<br />" + contacto.NombreApellido + " le ha enviado el siguiente mensaje: " + contacto.Mensaje;
 
@@ -82,11 +82,11 @@ namespace am_pm_solutions.Web.Controllers
                 if (!string.IsNullOrEmpty(contacto.Email))
                 {
                     string to2 = contacto.Email;
-                    string from2 = "no-reply@w220010.ferozo.com";
-                    string user2 = "no-reply@w220010.ferozo.com";
-                    string password2 = "mo67soGUru";
+                    string from2 = "no-reply@am-pmsolutions.com";
+                    string user2 = "no-reply@am-pmsolutions.com";
+                    string password2 = "zQj*HKe4fE";
                     string subject2 = "Gracias por su mensaje";
-                    string emailBody2 = "Gracias por su mensaje, le contestaremos en breve. <br /> AM-PM SOLUTIONS";
+                    string emailBody2 = "Gracias por su mensaje, le contestaremos en breve. <br /> AM-PM SOLUTIONS<br /><br />Por favor, no responda a este mensaje, es un envío automático.";
 
                     Email email2 = new Email();
                     email2.sendEmail(to2, from2, user2, password2, subject2, emailBody2);
