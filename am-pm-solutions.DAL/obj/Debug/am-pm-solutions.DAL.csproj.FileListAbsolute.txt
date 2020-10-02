@@ -62,3 +62,35 @@ C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\es\Sy
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am_pm_solutions.DAL.Migrations.Add_Campos_Contacto.resources
 C:\Users\Isidro\source\repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\obj\Debug\am_pm_solutions.DAL.Migrations.Add_campo_Pais.resources
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csc.exe
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csc.exe.config
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csc.rsp
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csi.exe
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csi.exe.config
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csi.rsp
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Buffers.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Memory.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Numerics.Vectors.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\vbc.exe
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\vbc.exe.config
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\vbc.rsp
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
