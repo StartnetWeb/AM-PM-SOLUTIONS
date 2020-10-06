@@ -4,6 +4,9 @@
     Layout = "~/Views/Shared/_LayoutEs.cshtml";
 }
 
+<head>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
 <main id="main">
     <!-- ======= Breadcrumbs Section ======= -->
     <section class="breadcrumbs">
@@ -62,6 +65,7 @@
                     <div class="form-group">
                         <textarea class="form-control" name="Mensaje" id="Mensaje" rows="5" placeholder="Su Mensaje (*)"></textarea>
                     </div>
+                    <div class="g-recaptcha" data-sitekey="6Le8UtQZAAAAADahlByiHt_sOU7eC1piSmeiTBI0"></div>
                     <div class="text-center">
                         <button class="btn_Send" type="submit" id="contact_form_submit">Enviar Mensaje</button>
                     </div>

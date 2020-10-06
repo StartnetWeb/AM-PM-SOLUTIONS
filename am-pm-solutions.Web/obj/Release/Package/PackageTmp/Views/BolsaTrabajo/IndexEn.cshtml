@@ -2,6 +2,9 @@
 @{
     ViewBag.Title = "Index";
 }
+<head>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
 <main id="main">
     <!-- ======= Breadcrumbs Section ======= -->
     <section class="breadcrumbs">
@@ -73,7 +76,8 @@
                             </span>
                             <input type="text" multiple placeholder='Select file' required style="border: none;" />
                         </div>
-
+                        <br />
+                        <div class="g-recaptcha" data-sitekey="6Le8UtQZAAAAADahlByiHt_sOU7eC1piSmeiTBI0"></div>
                         <div class="text-center"><button class="btn_Send" type="submit">SEND CV</button></div>
                     }
                 </div>

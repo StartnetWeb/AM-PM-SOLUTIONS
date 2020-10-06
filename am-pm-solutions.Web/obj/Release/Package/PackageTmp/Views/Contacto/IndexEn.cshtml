@@ -2,6 +2,10 @@
 @{
     ViewBag.Title = "IndexEn";
 }
+
+<head>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
 <main id="main">
     <!-- ======= Breadcrumbs Section ======= -->
     <section class="breadcrumbs">
@@ -19,21 +23,14 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
-                    <div class="info-box">
-                        <i class="bx bx-map"></i>
-                        <h3 id="text-naranja">Our Address</h3>
-                        <p>9642 SW 72ns ST, Miami FL 33326. USA <br />Gutierrez 2375, San Francisco, Córdoba, Argentina </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="info-box">
                         <i class="bx bx-envelope"></i>
                         <h3 id="text-naranja">Email Us</h3>
                         <p>info@am-pmsolutions.com</p>
                     </div>
                 </div>
-                <div class="col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                     <div class="info-box ">
                         <i class="bx bx-phone-call"></i>
                         <h3 id="text-naranja">Call Us</h3>
@@ -67,6 +64,7 @@
                     <div class="form-group">
                         <textarea class="form-control" name="Mensaje" id="Mensaje" rows="5" placeholder="Message (*)"></textarea>
                     </div>
+                    <div class="g-recaptcha" data-sitekey="6Le8UtQZAAAAADahlByiHt_sOU7eC1piSmeiTBI0"></div>
                     <div class="text-center">
                         <button class="btn_Send" type="submit" id="contact_form_submit">Send Message</button>
                     </div>
