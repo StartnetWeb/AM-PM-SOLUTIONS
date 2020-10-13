@@ -7,6 +7,8 @@ using am_pm_solutions.Entities;
 using am_pm_solutions.DAL;
 using System.IO;
 using am_pm_solutions.Entities.Utilities;
+using System.Net;
+using Newtonsoft.Json;
 
 namespace am_pm_solutions.Web.Controllers
 {
@@ -23,8 +25,10 @@ namespace am_pm_solutions.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult IndexEn([Bind(Include = "Id,Fecha,NombreApellido,Localidad,Provincia,País,Email,NombreArchivoCV,ArchivoCV")] BolsaTrabajo bolsaTrabajo)
         {
+            CaptchaResponse response = ValidateCaptcha(Request["g-recaptcha-response"]);
+
             bolsaTrabajo.Fecha = DateTime.Now;
-            if (ModelState.IsValid)
+            if (response.Success && ModelState.IsValid)
             {
                 if(bolsaTrabajo.ArchivoCV != null)
                 {
@@ -61,8 +65,12 @@ namespace am_pm_solutions.Web.Controllers
 
                 return RedirectToAction("SendCVConfirmedEn");
             }
+            else
+            {
+                return Content("Error de Google ReCaptcha : " + response.ErrorMessage[0].ToString());
+            }
 
-            return RedirectToAction("IndexEn");
+            //return RedirectToAction("IndexEn");
         }
 
         public ActionResult IndexEs()
@@ -74,8 +82,10 @@ namespace am_pm_solutions.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult IndexEs([Bind(Include = "Id,Fecha,NombreApellido,Localidad,Provincia,País,Email,NombreArchivoCV,ArchivoCV")] BolsaTrabajo bolsaTrabajo)
         {
+            CaptchaResponse response = ValidateCaptcha(Request["g-recaptcha-response"]);
+
             bolsaTrabajo.Fecha = DateTime.Now;
-            if (ModelState.IsValid)
+            if (response.Success && ModelState.IsValid)
             {
                 if (bolsaTrabajo.ArchivoCV != null)
                 {
@@ -112,8 +122,12 @@ namespace am_pm_solutions.Web.Controllers
 
                 return RedirectToAction("SendCVConfirmedEs");
             }
+            else
+            {
+                return Content("Error de Google ReCaptcha : " + response.ErrorMessage[0].ToString());
+            }
 
-            return RedirectToAction("IndexEs");
+            //return RedirectToAction("IndexEs");
         } 
         
         public ActionResult SendCVConfirmedEn()
@@ -124,6 +138,14 @@ namespace am_pm_solutions.Web.Controllers
         public ActionResult SendCVConfirmedEs()
         {
             return View();
+        }
+
+        public static CaptchaResponse ValidateCaptcha(string response)
+        {
+            string secret = System.Web.Configuration.WebConfigurationManager.AppSettings["recaptchaPrivateKey"];
+            var client = new WebClient();
+            var jsonResult = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", secret, response));
+            return JsonConvert.DeserializeObject<CaptchaResponse>(jsonResult.ToString());
         }
 
     }
