@@ -221,3 +221,7 @@ D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.Mvc.dll
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.xml
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\PagedList.Mvc.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\reCAPTCHA.MVC.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\System.Data.SQLite.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\System.Data.SQLite.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.Web\bin\System.Data.SQLite.dll.config
