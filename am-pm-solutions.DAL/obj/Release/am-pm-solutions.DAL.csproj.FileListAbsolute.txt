@@ -94,3 +94,5 @@ D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\roslyn\VBCSCompiler.exe.config
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\Newtonsoft.Json.dll
+D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Release\Newtonsoft.Json.xml

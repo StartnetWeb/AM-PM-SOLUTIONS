@@ -16,7 +16,7 @@ namespace am_pm_solutions.Entities.Utilities
 
         public Email()
         {
-            smtpServer = " mail.am-pmsolutions.com";
+            smtpServer = "mail.am-pmsolutions.com";
             smtpPort = 587;
             smtpCredentials = true;
             enableSsl = false;

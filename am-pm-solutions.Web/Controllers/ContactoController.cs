@@ -23,16 +23,14 @@ namespace am_pm_solutions.Web.Controllers
         [HttpPost]
         public JsonResult IndexEn([Bind(Include = "Id,FechaContacto,NombreApellido,Telefono,Email,Mensaje,Direccion,Pais")] Contacto contacto)
         {
-            CaptchaResponse response = ValidateCaptcha(Request["g-recaptcha-response"]);
-
             contacto.FechaContacto = DateTime.Now;
-            if (response.Success && ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 db.Contacto.Add(contacto);
                 db.SaveChanges();
 
-                string to = "info@am-pmsolutions.com";
-                //string to = "javisicardi94@gmail.com";
+                //string to = "info@am-pmsolutions.com";
+                string to = "javisicardi94@gmail.com";
                 string from = "no-reply@am-pmsolutions.com";
                 string user = "no-reply@am-pmsolutions.com";
                 string password = "zQj*HKe4fE";
@@ -57,12 +55,7 @@ namespace am_pm_solutions.Web.Controllers
 
                 return Json(true, JsonRequestBehavior.AllowGet);
             }
-            else
-            {
-                return Json(false, JsonRequestBehavior.AllowGet);
-                //return Content("Error From Google ReCaptcha : " + response.ErrorMessage[0].ToString());
-            }
-            //return Json(false, JsonRequestBehavior.AllowGet);
+            return Json(false, JsonRequestBehavior.AllowGet);
         }
 
         public ActionResult IndexEs()
@@ -108,12 +101,12 @@ namespace am_pm_solutions.Web.Controllers
         }
 
         
-        public static CaptchaResponse ValidateCaptcha(string response)
-        {
-            string secret = System.Web.Configuration.WebConfigurationManager.AppSettings["recaptchaPrivateKey"];
-            var client = new WebClient();
-            var jsonResult = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", secret, response));
-            return JsonConvert.DeserializeObject<CaptchaResponse>(jsonResult.ToString());
-        }
+        //public static CaptchaResponse ValidateCaptcha(string response)
+        //{
+        //    string secret = System.Web.Configuration.WebConfigurationManager.AppSettings["recaptchaPrivateKey"];
+        //    var client = new WebClient();
+        //    var jsonResult = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", secret, response));
+        //    return JsonConvert.DeserializeObject<CaptchaResponse>(jsonResult.ToString());
+        //}
     }
 }

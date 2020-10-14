@@ -67,7 +67,7 @@ namespace am_pm_solutions.Web.Controllers
             }
             else
             {
-                return Content("Error de Google ReCaptcha : " + response.ErrorMessage[0].ToString());
+                return Content("Recaptcha denegado.Bolsa de trabajo no enviada.Error de Google ReCaptcha: " + response.ErrorMessage[0].ToString());
             }
 
             //return RedirectToAction("IndexEn");
@@ -97,7 +97,8 @@ namespace am_pm_solutions.Web.Controllers
                 db.BolsaTrabajo.Add(bolsaTrabajo);
                 db.SaveChanges();
 
-                string to = "info@am-pmsolutions.com";
+                //string to = "info@am-pmsolutions.com";
+                string to = "javisicardi94@gmail.com";
                 string from = "no-reply@am-pmsolutions.com";
                 string user = "no-reply@am-pmsolutions.com";
                 string password = "zQj*HKe4fE";
@@ -124,10 +125,8 @@ namespace am_pm_solutions.Web.Controllers
             }
             else
             {
-                return Content("Error de Google ReCaptcha : " + response.ErrorMessage[0].ToString());
+                return Content("Recaptcha denegado. Bolsa de trabajo no enviada. Error de Google ReCaptcha : " + response.ErrorMessage[0].ToString());
             }
-
-            //return RedirectToAction("IndexEs");
         } 
         
         public ActionResult SendCVConfirmedEn()

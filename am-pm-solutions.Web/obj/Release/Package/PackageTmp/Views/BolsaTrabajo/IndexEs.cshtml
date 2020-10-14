@@ -4,9 +4,6 @@
     Layout = "~/Views/Shared/_LayoutEs.cshtml";
 }
 
-<head>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-</head>
 <main id="main">
     <!-- ======= Breadcrumbs Section ======= -->
     <section class="breadcrumbs">
@@ -78,8 +75,11 @@
                             <input type="text" multiple placeholder='Seleccionar Archivo' required style="border: none;" />
                         </div>
                         <br />
+                        @*RECAPTCHA LOCALHOST*@
+                        @*<div class="g-recaptcha" data-sitekey="6LfR5dYZAAAAAMHV0KQA9qWuQ9Ike2MCinrtHq7I"></div>*@
+                        @* RECAPTCHA EN PRODUCCION *@
                         <div class="g-recaptcha" data-sitekey="6Le8UtQZAAAAADahlByiHt_sOU7eC1piSmeiTBI0"></div>
-                        <div class="text-center"><button id="EnviarCV" onsubmit="validarImagen();" class="btn_Send" type="submit">ENVIAR CV</button></div>
+                        <div class="text-center"><button id="EnviarCV" class="btn_Send" type="submit">ENVIAR CV</button></div>
                     }
 
                 </div>
