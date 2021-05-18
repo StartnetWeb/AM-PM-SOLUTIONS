@@ -96,3 +96,37 @@ D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\Newtonsoft.Json.dll
 D:\Users\Usuario\Documents\Proyectos StartNet\javiSicardi\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csc.exe
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csc.exe.config
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csc.rsp
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csi.exe
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csi.exe.config
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\csi.rsp
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Buffers.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Memory.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Numerics.Vectors.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\vbc.exe
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\vbc.exe.config
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\vbc.rsp
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Isidro\Source\Repos\AM-PM-SOLUTIONS\am-pm-solutions.DAL\bin\Debug\Newtonsoft.Json.xml
