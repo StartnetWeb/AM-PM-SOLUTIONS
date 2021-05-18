@@ -97,8 +97,7 @@ namespace am_pm_solutions.Web.Controllers
                 db.BolsaTrabajo.Add(bolsaTrabajo);
                 db.SaveChanges();
 
-                //string to = "info@am-pmsolutions.com";
-                string to = "javisicardi94@gmail.com";
+                string to = "info@am-pmsolutions.com";
                 string from = "no-reply@am-pmsolutions.com";
                 string user = "no-reply@am-pmsolutions.com";
                 string password = "zQj*HKe4fE";
